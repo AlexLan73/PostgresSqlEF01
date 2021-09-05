@@ -71,7 +71,7 @@ namespace DBPostgresql.Core
                     optionsBuilder.UseNpgsql(DBManager.ConnectDBparams);
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<SecondPath>()
+/*            modelBuilder.Entity<SecondPath>()
                 .HasOne(p => p.FirstPath);
 
             modelBuilder.Entity<ClfFind>()
@@ -82,6 +82,7 @@ namespace DBPostgresql.Core
                 .HasOne(x => x.Mem);
             modelBuilder.Entity<ClfFind>()
                 .HasOne(x => x.SecondPath);
+*/
             //            modelBuilder.Entity<ClfFind>().HasMany(x=>x.Triggers).WithOne().HasForeignKey(o=>o.TriggerId);
                 //.HasOne(x=>x.Triggers)
                 //.WithOne(x => x.)

@@ -18,7 +18,7 @@ namespace DBPostgresql.Model
         public DateTime DateTimeStart { get; set; }
         public DateTime DateTimeEnd { get; set; }
 
-        [ForeignKey("TriggerId")]
+//        [ForeignKey("TriggerId")]
         public List<long> Triggers { get; set; }
 
 //        [ForeignKey("TriggerId")]

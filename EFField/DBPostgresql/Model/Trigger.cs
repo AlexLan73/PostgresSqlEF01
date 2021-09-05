@@ -8,12 +8,13 @@ namespace DBPostgresql.Model
 {
     public class Trigger : IBaseField
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+//        [Key]
+//        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long TriggerId { get; set; }
 
-        [MaxLength(25)]
+//        [MaxLength(25)]
         [Required]
         public string Name { get; set; }
+        public ClfFind GetClfFind {  get; set; }
     }
 }

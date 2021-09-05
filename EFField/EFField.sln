@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31612.314
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFField", "EFField\EFField.csproj", "{2B62504F-61CF-4B0E-BEEB-4143BB75E4C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFField", "EFField\EFField.csproj", "{2B62504F-61CF-4B0E-BEEB-4143BB75E4C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBPostgresql", "DBPostgresql\DBPostgresql.csproj", "{346F261D-893A-49B7-AFF0-E0A64E05035C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBPostgresql", "DBPostgresql\DBPostgresql.csproj", "{346F261D-893A-49B7-AFF0-E0A64E05035C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbDynamic", "DbDynamic\DbDynamic.csproj", "{F627B65F-BB6C-40BB-84E7-2549E6960593}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{346F261D-893A-49B7-AFF0-E0A64E05035C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{346F261D-893A-49B7-AFF0-E0A64E05035C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{346F261D-893A-49B7-AFF0-E0A64E05035C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F627B65F-BB6C-40BB-84E7-2549E6960593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F627B65F-BB6C-40BB-84E7-2549E6960593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F627B65F-BB6C-40BB-84E7-2549E6960593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F627B65F-BB6C-40BB-84E7-2549E6960593}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
